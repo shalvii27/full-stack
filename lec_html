@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        img{
+            position: absolute;
+            z-index: -10;
+
+        }
+        div{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <img src="download.jpg" alt="">
+    <div>Hello this is div</div>
+</body>
+</html>
