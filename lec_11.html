@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+<script> 
+ 
+       function fun(n){
+        if (n==1){
+            return n
+        }
+        return n * fun(n-1)
+
+       }
+       document.writeln(fun(6))
+
+    function calculate(x,y,z){
+        return z(x,y)
+    }  
+    var answer = calculate(5,10,function(a,b){
+        return a+b;
+    })
+    document.writeln(answer)
+    /*promise= js promise that the value will be available*/
+    var mypromise=new Promise((resolve,reject)=>{
+        let course=true
+      if (course)
+    {
+        resolve("your course is completed")
+    }
+    else
+    {
+        reject("course is not completed")
+    }
+})
+mypromise.then((result)=>{document.writeln(result)
+})
+.catch((result)=>{document.writeln(result)
+})
+ </script>
+      
+      
+        
+    
+</body>
+</html>
+
+

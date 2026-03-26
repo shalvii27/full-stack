@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Linksans Linksansvf', sans-serif;
+}
+
+#section1{
+    background-color: #d2e823;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+}
+
+#navbar
+{
+    background-color: white;
+    padding: 30px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#logo img{
+    width: 100px;
+}
+#left
+{
+    display: flex;
+}
+
+#left ul
+{
+    margin-left: 50px;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+#right button
+{
+    padding: 17px;
+    margin-top: -8px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+    border: none;
+}
+
+#login
+{
+    border-radius: 10px;
+}
+
+#signup
+{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+}
+
+
+#hero
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(26, 43, 1);
+    align-items: center;
+}
+
+#lefttext
+{
+    width: 60%;
+    margin-right: 150px;
+    color: #254f1a;
+}
+
+#rightimg img
+{
+    width: 400px;   
+    border-radius: 20px; 
+}
+
+#lefttext h1{
+    font-size: 90px;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-weight: 900;
+    line-height: 95px;
+}
+#lefttext p
+{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#lefttext input
+{
+    padding: 20px;
+    border: none;
+}
+#lefttext input[type="text"]
+{
+    border-radius: 10px;
+}
+
+#lefttext input[type="button"]
+{
+    border-radius: 50px;
+    color: white;
+    background-color: #254f1a;
+}
+
+
+#section2
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2665d6;
+    display: flex;
+    align-items: center;
+}
+#section2 video{
+    width: 100%;
+    /* background-color: green; */
+}
+#section2 #text
+{
+    padding: 50px;
+    /* width: 50%; */
+    /* background-color: red; */
+}
+
+#text h1{
+    font-size: 55px;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-weight: 900;
+    line-height: 60px;
+    color: #d2e823;
+}
+#text p
+{
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+#text input
+{
+    padding: 20px 60px;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #d2e823;
+}
